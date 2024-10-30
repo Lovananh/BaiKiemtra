@@ -1,0 +1,3 @@
+D:\LT .Net\BaiKiemTra\obj\Debug\BaiKiemTra.csproj.AssemblyReference.cache
+D:\LT .Net\BaiKiemTra\obj\Debug\BaiKiemTra.Form1.resources
+D:\LT .Net\BaiKiemTra\obj\Debug\BaiKiemTra.csproj.GenerateResource.cache
