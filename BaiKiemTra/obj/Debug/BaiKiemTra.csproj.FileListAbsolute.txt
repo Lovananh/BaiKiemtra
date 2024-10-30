@@ -1,3 +1,13 @@
 D:\LT .Net\BaiKiemTra\obj\Debug\BaiKiemTra.csproj.AssemblyReference.cache
 D:\LT .Net\BaiKiemTra\obj\Debug\BaiKiemTra.Form1.resources
 D:\LT .Net\BaiKiemTra\obj\Debug\BaiKiemTra.csproj.GenerateResource.cache
+D:\GITHUB\BaiKiemtra\BaiKiemTra\obj\Debug\BaiKiemTra.csproj.AssemblyReference.cache
+D:\GITHUB\BaiKiemtra\BaiKiemTra\obj\Debug\BaiKiemTra.Form1.resources
+D:\GITHUB\BaiKiemtra\BaiKiemTra\obj\Debug\BaiKiemTra.csproj.GenerateResource.cache
+D:\GITHUB\BaiKiemtra\BaiKiemTra\bin\Debug\BaiKiemTra.exe.config
+D:\GITHUB\BaiKiemtra\BaiKiemTra\bin\Debug\BaiKiemTra.exe
+D:\GITHUB\BaiKiemtra\BaiKiemTra\bin\Debug\BaiKiemTra.pdb
+D:\GITHUB\BaiKiemtra\BaiKiemTra\obj\Debug\BaiKiemTra.Properties.Resources.resources
+D:\GITHUB\BaiKiemtra\BaiKiemTra\obj\Debug\BaiKiemTra.csproj.CoreCompileInputs.cache
+D:\GITHUB\BaiKiemtra\BaiKiemTra\obj\Debug\BaiKiemTra.exe
+D:\GITHUB\BaiKiemtra\BaiKiemTra\obj\Debug\BaiKiemTra.pdb

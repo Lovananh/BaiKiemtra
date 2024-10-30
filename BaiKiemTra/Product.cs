@@ -12,14 +12,16 @@ namespace BaiKiemTra
         public string Name  {  get; set; }
         public decimal Price { get; set; }
         public int Quantity { get; set; }
-        public Image image { get; set; }
-        public Product(string Name, decimal Price, int Quantity,Image image)
+        public Product(string Name, decimal Price, int Quantity)
         {
             this.Name = Name;
             this.Price = Price;
             this.Quantity = Quantity;
-            this.image = image;
-        }  
+        }
+        public decimal GetTotalPrice()
+        {
+            return Price * Quantity;
+        }
     }
    
 }

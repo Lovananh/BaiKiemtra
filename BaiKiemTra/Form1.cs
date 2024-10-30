@@ -28,9 +28,9 @@ namespace BaiKiemTra
         {
             productList = new List<Product>
             {
-                new Product("Laptop", 1500m, 1, Image.FromFile("path_to_laptop_image.jpg")),
-                new Product("Smartphone", 800m, 1, Image.FromFile("path_to_smartphone_image.jpg")),
-                new Product("Tablet", 500m, 1, Image.FromFile("path_to_tablet_image.jpg"))
+                new Product("Laptop", 1500m, 1),
+                new Product("Smartphone", 800m, 2),
+                new Product("Tablet", 500m, 1)
             };
         }
         public void Luutru()
@@ -39,8 +39,9 @@ namespace BaiKiemTra
             dataGridView2.DataSource = productList;
 
             // Thiết lập DataGridView để hiển thị ảnh
-            dataGridView2.Columns["Image"].Visible = true;
-            dataGridView2.Columns["Image"].Width = 100;
+            //dataGridView2.Columns["image"].Visible = true;
+            //dataGridView2.Columns["image"].Width = 100;
+            dataGridView2.Columns["Quantity"].Visible = true;
             dataGridView2.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridView2.MultiSelect = false;
         }
@@ -54,21 +55,18 @@ namespace BaiKiemTra
 
 
         }
-
         private void btnThemvaogiohang_Click(object sender, EventArgs e)
         {
             if (selectedProduct != null)
             {
-                int quantity = Convert.ToInt32(txtQuantity.Text);
-                Product newProduct = new Product(selectedProduct.Name, selectedProduct.Price, quantity, selectedProduct.image);
-                cart.AddToCart(newProduct);
+                cart.AddToCart(selectedProduct);
 
-                // Cập nhật lại danh sách giỏ hàng
+
                 dataGridView1.DataSource = null;
                 dataGridView1.DataSource = cart.CartItems;
 
-                // Làm sạch TextBox số lượng
-                txtQuantity.Clear();
+                // Cập nhật tổng giá trị trong giỏ hàng
+                txtTong.Text = $"{cart.CartItems.Sum(item => item.GetTotalPrice()):C}";
             }
             else
             {
@@ -82,10 +80,11 @@ namespace BaiKiemTra
             {
                 var selectedItem = (Product)dataGridView1.SelectedRows[0].DataBoundItem;
                 cart.RemoveProduct(selectedItem.Name);
-
-                // Cập nhật lại danh sách giỏ hàng
                 dataGridView1.DataSource = null;
                 dataGridView1.DataSource = cart.CartItems;
+
+                // Cập nhật tổng giá trị trong giỏ hàng
+                txtTong.Text = $"{cart.CartItems.Sum(item => item.GetTotalPrice()):C}";
             }
             else
             {
@@ -101,6 +100,7 @@ namespace BaiKiemTra
             // Làm mới giỏ hàng sau khi thanh toán
             dataGridView1.DataSource = null;
             dataGridView1.DataSource = cart.CartItems;
+            txtTong.Text = $"{cart.CartItems.Sum(item => item.GetTotalPrice()):C}";
 
         }
 
@@ -115,7 +115,6 @@ namespace BaiKiemTra
             if (dataGridView2.SelectedRows.Count > 0)
             {
                 selectedProduct = (Product)dataGridView2.SelectedRows[0].DataBoundItem;
-                txtQuantity.Text = "1"; // Đặt giá trị mặc định cho số lượng
             }
         }
     }
