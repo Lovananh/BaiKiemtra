@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\GITHUB\\BaiKiemtra\\BaiKiemTra\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1701D9FC-F527-41E1-8A6D-269B55D7DA3F}|BaiKiemTra.csproj|D:\\GITHUB\\BaiKiemtra\\BaiKiemTra\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1701D9FC-F527-41E1-8A6D-269B55D7DA3F}|BaiKiemTra.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1701D9FC-F527-41E1-8A6D-269B55D7DA3F}|BaiKiemTra.csproj|d:\\github\\baikiemtra\\baikiemtra\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1701D9FC-F527-41E1-8A6D-269B55D7DA3F}|BaiKiemTra.csproj|solutionrelative:shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1701D9FC-F527-41E1-8A6D-269B55D7DA3F}|BaiKiemTra.csproj|d:\\github\\baikiemtra\\baikiemtra\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1701D9FC-F527-41E1-8A6D-269B55D7DA3F}|BaiKiemTra.csproj|D:\\GITHUB\\BaiKiemtra\\BaiKiemTra\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1701D9FC-F527-41E1-8A6D-269B55D7DA3F}|BaiKiemTra.csproj|solutionrelative:product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1701D9FC-F527-41E1-8A6D-269B55D7DA3F}|BaiKiemTra.csproj|d:\\github\\baikiemtra\\baikiemtra\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1701D9FC-F527-41E1-8A6D-269B55D7DA3F}|BaiKiemTra.csproj|solutionrelative:properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1701D9FC-F527-41E1-8A6D-269B55D7DA3F}|BaiKiemTra.csproj|d:\\github\\baikiemtra\\baikiemtra\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1701D9FC-F527-41E1-8A6D-269B55D7DA3F}|BaiKiemTra.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1701D9FC-F527-41E1-8A6D-269B55D7DA3F}|BaiKiemTra.csproj|D:\\GITHUB\\BaiKiemtra\\BaiKiemTra\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1701D9FC-F527-41E1-8A6D-269B55D7DA3F}|BaiKiemTra.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1701D9FC-F527-41E1-8A6D-269B55D7DA3F}|BaiKiemTra.csproj|D:\\GITHUB\\BaiKiemtra\\BaiKiemTra\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1701D9FC-F527-41E1-8A6D-269B55D7DA3F}|BaiKiemTra.csproj|solutionrelative:properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,20 +54,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "D:\\GITHUB\\BaiKiemtra\\BaiKiemTra\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "ShoppingCart.cs",
+              "ToolTip": "D:\\GITHUB\\BaiKiemtra\\BaiKiemTra\\ShoppingCart.cs",
+              "RelativeToolTip": "ShoppingCart.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwB0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T03:52:15.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\GITHUB\\BaiKiemtra\\BaiKiemTra\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\GITHUB\\BaiKiemtra\\BaiKiemTra\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAiwFEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T03:39:50.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\GITHUB\\BaiKiemtra\\BaiKiemTra\\Product.cs",
               "RelativeDocumentMoniker": "Product.cs",
               "ToolTip": "D:\\GITHUB\\BaiKiemtra\\BaiKiemTra\\Product.cs",
               "RelativeToolTip": "Product.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T03:48:12.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Resources.resx",
               "DocumentMoniker": "D:\\GITHUB\\BaiKiemtra\\BaiKiemTra\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "Properties\\Resources.resx",
@@ -71,21 +101,7 @@
               "RelativeToolTip": "Properties\\Resources.resx",
               "ViewState": "AgIAAHAAAAAAAAAAAAAAAHkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-10-30T03:40:24.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\GITHUB\\BaiKiemtra\\BaiKiemTra\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\GITHUB\\BaiKiemtra\\BaiKiemTra\\Form1.cs*",
-              "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AgIAAGYAAAAAAAAAAAASwCsAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T03:39:50.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T03:40:24.219Z"
             },
             {
               "$type": "Document",
@@ -93,8 +109,8 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\GITHUB\\BaiKiemtra\\BaiKiemTra\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\GITHUB\\BaiKiemtra\\BaiKiemTra\\Form1.cs [Design]*",
-              "RelativeToolTip": "Form1.cs [Design]*",
+              "ToolTip": "D:\\GITHUB\\BaiKiemtra\\BaiKiemTra\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T03:39:46.895Z",
               "EditorCaption": " [Design]"

@@ -29,6 +29,7 @@ namespace BaiKiemTra
             {
                 CartItems.Add(product);
             }
+            
         }
 
         // Phương thức xóa sản phẩm khỏi giỏ hàng

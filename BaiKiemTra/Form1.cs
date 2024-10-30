@@ -38,9 +38,6 @@ namespace BaiKiemTra
             // Gán danh sách sản phẩm vào DataGridView danh sách sản phẩm
             dataGridView2.DataSource = productList;
 
-            // Thiết lập DataGridView để hiển thị ảnh
-            //dataGridView2.Columns["image"].Visible = true;
-            //dataGridView2.Columns["image"].Width = 100;
             dataGridView2.Columns["Quantity"].Visible = true;
             dataGridView2.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridView2.MultiSelect = false;
@@ -74,7 +71,21 @@ namespace BaiKiemTra
             }
         }
 
-        private void btnXoa_Click(object sender, EventArgs e)
+        // Cập nhật lại DataGridView1 để hiển thị danh sách mới
+
+    private void UpdateDataGridView1()
+    {
+        // Xóa tất cả các dòng trong DataGridView1
+        dataGridView1.Rows.Clear();
+
+        // Duyệt qua CartItems và thêm từng sản phẩm vào DataGridView1
+        foreach (var item in cart.CartItems)
+        {
+            dataGridView1.Rows.Add(item.Name, item.Quantity, item.Price); // Thêm các cột phù hợp
+        }
+    }
+
+    private void btnXoa_Click(object sender, EventArgs e)
         {
             if (dataGridView1.SelectedRows.Count > 0)
             {
